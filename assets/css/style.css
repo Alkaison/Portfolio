@@ -6,7 +6,47 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+/* Hero section */
+.hero-section {
+    height: 100vh;
+}
+/* NavBar container */
+.navbar-container {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+}
+.navbar-title {
+    -webkit-user-select: none;
+    user-select: none;
+}
+.navbar-title-link {
+    color: black;
+    text-decoration: none;
+}
+.navbar-links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 24px;
+}
+.navbar-items {
+    font-size: 20px;
+}
+.navbar-links {
+    color: black;
+    text-decoration: none;
+}
+/* Hero container */
+.hero-container {
+    height: calc(100vh - 80px);
 }
